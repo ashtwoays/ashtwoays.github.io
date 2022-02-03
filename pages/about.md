@@ -32,6 +32,6 @@ Hi i am aditia, fresh graduate from information system. i write everything I hav
     <li>PT. PERTAMINA INTERNATIONAL SHIPPING (Internship)</li>
     <p>General Affair & Procurement</p>
     <hr>
-    <li>PT. TOPJAYA ANTARIKSA ELEKTRONICS<li>
+    <li>PT. TOPJAYA ANTARIKSA ELEKTRONICS</li>
     <p>Production Operator</p>
 </ul>
