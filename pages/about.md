@@ -5,7 +5,7 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile_new.jpeg" alt="Aditia Ayasy" width="200">
+<img class="img-rounded" src="/assets/img/uploads/profile-rounded.png" alt="Aditia Ayasy" width="200">
 
 # About
 
