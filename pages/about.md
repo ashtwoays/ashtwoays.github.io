@@ -5,15 +5,33 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.jpeg" alt="Aditia Ayasy" width="200">
+<img class="img-rounded" src="/assets/img/uploads/profile_new.jpeg" alt="Aditia Ayasy" width="200">
 
-<center>
 # About
-</center>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hi i am aditia, fresh graduate from information system. i write everything I have learned here. I hope that my writing can be useful for myself and others.
+
+<h3>About Me</h3>
+<ul>
+    <li>Name : Aditia Ayasy</li>
+    <li>Age  : 22</li>
+    <li>Indonesia, Jawa Barat</li>
+</ul>
+
+<h3>Educational</h3>
+<ul>
+    <li>UNIVERSITAS BINA INSANI (2017-2021)</li>
+    <p>Information System</p>
+    <hr>
+    <li>SMK NEGERI 5 KOTA BEKASI (2014-2017)</li>
+    <p>Industrial Electronics Engineering</p>
+</ul>
+
+<h3>Work Experience</h3>
+<ul>
+    <li>PT. PERTAMINA INTERNATIONAL SHIPPING (Internship)</li>
+    <p>General Affair & Procurement</p>
+    <hr>
+    <li>PT. TOPJAYA ANTARIKSA ELEKTRONICS<li>
+    <p>Production Operator</p>
+</ul>
