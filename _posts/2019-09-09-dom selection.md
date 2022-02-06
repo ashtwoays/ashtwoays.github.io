@@ -1,8 +1,8 @@
 ---
-date: 2022-02-07 00:08:00
+date: 2022-02-06 00:26:00
 layout: post
 title: DOM - Selection
-subtitle: Pembahasan metode selection pada DOM
+subtitle: Pembahasan DOM Selection menggunakan Javascript
 description:
 image: https://source.unsplash.com/1600x900/?javascript
 optimized_image: https://source.unsplash.com/1600x900/?javascript
