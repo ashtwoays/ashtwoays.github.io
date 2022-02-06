@@ -25,15 +25,13 @@ DOM Selection merupakan pembahasan mengenai cara untuk memilih sebuah element ht
       <th>Usage</th>
     </tr>
   </thead>
-  <tfoot>
+  <tbody>
     <tr>
       <td>getElementById()</td>
       <td>Element</td>
       <td>Memilih element berdasarkan ID</td>
       <td>document.getElementById('inputA' -> inputA merupakan ID dari sebuah element HTML)</td>
     </tr>
-  </tfoot>
-  <tbody>
     <tr>
       <td>getElementsByTagName()</td>
       <td>HTMLCollection</td>
