@@ -9,7 +9,7 @@ optimized_image: https://source.unsplash.com/1600x900/?javascript
 category: javascript
 tags:
   - javascript
-author: Aditia Ayasy
+author: aditia
 ---
 
 DOM (Document Object Model) merupakan kemampuan javascript untuk memanipulasi element pada sebuah halaman website agar lebih menarik dan interaktif.
