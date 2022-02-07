@@ -16,7 +16,7 @@ DOM Selection merupakan pembahasan mengenai cara untuk memilih sebuah element ht
 
 ## DOM SELECTION METHOD
 
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 
 <table>
   <thead>
@@ -48,6 +48,11 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
       <td>getElementByTagName()</td>
       <td>HTMLCollection</td>
       <td>Memilih element berdasarkan TAG html</td>
+    </tr>
+    <tr>
+      <td>querySelector()</td>
+      <td>Element</td>
+      <td>Memilih elemen berdasarkan selectornya, seperti menggunakan css</td>
     </tr>
   </tbody>
 </table>
