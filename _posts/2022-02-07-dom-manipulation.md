@@ -75,8 +75,21 @@ Element Manipulation adalah kondisi ketika kita ingin mengubah suatu style atau 
     <script>
         // Seleksi Element h3
         const h3 = document.getElementById('h3')
+
         // Buat Manipulasi InnerHTML
-        h3.innerHTML = 'INI ADALAH JUDUL';
+        h3.innerHTML = 'INI ADALAH JUDUL'; // Maka outputnya adalah tag h3 akan berubah valuenya menjadi INI ADALAH JUDUL
+
+        // Buat Manipulasi style.properties
+        h3.style.backgroundColor = 'red'; // Outputnya warna background pada h3 akan berubah menjadi merah
+
+        // Buat Manipulasi Attribute
+        h3.setAttribute('id', 'judul') // method ini akan menambahkan attribute id = "judul" pada element h3
+
+        // Element Class List akan mengelola class secara spesifik
+        h3.classList.add('baru') // untuk menambah class baru pada element h3 jadi class = "h3 baru"
+        h3.classList.remove('baru') // untuk menghilangkan sebuah class tertentu, jadi class = "h3"
+        h3.classList.toggle('judul') // akan menambah class judul jika di h3 belum ada, dan akan menghapus class judul jika di h3 sudah ada
+        h3.classList.replace('h3', 'header') // akan mengubah class h3 menjadi class header
     </script>
 ```
 
