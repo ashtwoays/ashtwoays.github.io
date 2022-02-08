@@ -1,8 +1,8 @@
 ---
-date: 2022-02-07 09:16:43
+date: 2022-02-08 22:16:43
 layout: post
-title: "DOM - Manipulation"
-subtitle: Pembahasan DOM Manipulation
+title: "DOM - Events"
+subtitle: Pembahasan DOM Events
 description:
 image: https://source.unsplash.com/1600x900/?javascript
 optimized_image: https://source.unsplash.com/1600x900/?javascript
