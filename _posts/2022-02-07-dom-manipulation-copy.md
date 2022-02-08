@@ -13,8 +13,7 @@ author: aditia
 paginate: false
 ---
 
-Setelah mempelajari DOM Selection maka selanjutnya kita akan mempelajari DOM Manipulation. DOM Manipulation adalah cara untuk memanipulasi sebuah element yang sudah kita seleksi sebelumnya menggunakan DOM Selection, baik itu merubah style ataupun isi dari sebuah element. Ada beberapa method yang dapat digunakan dalam DOM Manipulation.
-DOM Manipulation ini terbagi menjadi 2 yaitu, Element Manipulation dan Node Manipulation.
+Setelah mempelajari selection dan manipulation, pada pembahasan ini akan materi sambungan yaitu DOM Events. Event pada javascript merepresentasikan sebuah kejadian yang terjadi di dalam DOM, kejadian tersebut bisa dilakukan atau ditentukan oleh user seperti Mouse Event, Keyboard Event dan lain lain.
 
 ## ELEMENT MANIPULATION
 
