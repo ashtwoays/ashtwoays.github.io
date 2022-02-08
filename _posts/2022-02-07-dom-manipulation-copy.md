@@ -1,5 +1,5 @@
 ---
-date: 2022-02-08 22:16:43
+date: 2022-02-07
 layout: post
 title: "DOM - Events"
 subtitle: Pembahasan DOM Events
