@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="sectionA">
+        <h3 id="h1">Punten</h3>
+        <h3 id="h2">Hello World</h3>
+    </section>
+</body>
+</html>
+
+<script>
+
+    // Buat Element h3 baru
+    const h3baru = document.createElement('h3') // output <h3></h3>
+
+    // Buat Value text untuk h3baru
+    const texth3b = document.createTextNode('appenChild') // output 'appenChild'
+
+    // Sisipkan texth3b ke dalam h3baru
+    h3baru.appendChild(texth3b) // output <h3>Halo Dunia</h3>
+
+    // Simpan h3baru dibawah h3 lama
+    // ambil nodenya / parentnya terlebih dahulu
+    const sectionA = document.getElementById('sectionA')
+
+    // Sisipkan h3baru di akhir h3 lama
+    sectionA.appendChild(h3baru)
+
+    // -----------------------------------------------------------------------------
+
+    // Sisipkan element baru sebelum hello world atau tengah tengah 
+    // Buat element baru 
+    const h3baru1 = document.createElement('h3')
+
+    // Buat value text untuk h3baru1 
+    const texth3b1 = document.createTextNode('insert before')
+
+    // Sisipkan texth3b1 ke dalam h3baru1 
+    h3baru1.appendChild(texth3b1)
+
+    // ambil parent dari element yang jadi bantalan
+    const section = document.getElementById('sectionA')
+
+    // ambil element yang akan dijadikan bantalan
+    const bantalan = document.getElementById('h2');
+
+    // Sisipkan elemen
+    section.insertBefore(h3baru1, bantalan);
+</script>
