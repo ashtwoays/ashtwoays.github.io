@@ -102,8 +102,8 @@ Node Manipulation memungkinkan kita untuk melakukan penambahan node baru atau me
   </thead>
   <tfoot>
     <tr>
-      <td>parentNode.replaceChild</td>
-      <td>Untuk memanipulasi class pada sebuah element secara spesifik</td>
+      <td>parentNode.replaceChild(newNode, oldNode)</td>
+      <td>Untuk mengganti sebuah element di dalam parent</td>
     </tr>
   </tfoot>
   <tbody>
@@ -125,7 +125,7 @@ Node Manipulation memungkinkan kita untuk melakukan penambahan node baru atau me
     </tr>
     <tr>
       <td>parentNode.removeChild()</td>
-      <td>Untuk memanipulasi attribute pada sebuah element seperti class, id, name</td>
+      <td>Untuk menghapus sebuah element di dalam parent</td>
     </tr>
   </tbody>
 </table>
