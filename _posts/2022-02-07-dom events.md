@@ -19,46 +19,47 @@ Setelah mempelajari selection dan manipulation, pada pembahasan ini akan materi 
 
 Ada 2 cara untuk menggunakan event yaitu:
 
-- EVENT HANDLER
-  A. Inline HTML Attribute
+# EVENT HANDLER
 
-  inline HTML attribute yaitu memberikan event handler di dalam element html seperti berikut:
+## Inline HTML Attribute
 
-  ```HTML
-     <button class="button" onclick="clickme()">Click Me!</button>
-  ```
+inline HTML attribute yaitu memberikan event handler di dalam element html seperti berikut:
 
-  Pada contoh script diatas, saya menambahkan event handler onclick pada element button
+```HTML
+   <button class="button" onclick="clickme()">Click Me!</button>
+```
 
-  B. Element Method
+Pada contoh script diatas, saya menambahkan event handler onclick pada element button
 
-  Element Method memberikan event handler pada sebuah element HTML namun event tersebut di deklarasikan didalam javascript, seperti berikut:
+## Element Method
 
-  ```HTML
-    <button class="button" id="button">Click Me!</button>
+Element Method memberikan event handler pada sebuah element HTML namun event tersebut di deklarasikan didalam javascript, seperti berikut:
 
-    <script>
-      const button = document.getElementById('button');
-      button.onclick = contoh;
-      function contoh(){}
-    </script>
-  ```
+```HTML
+  <button class="button" id="button">Click Me!</button>
 
-  Pada contoh diatas saya memilih element button dan memberikan event handler onclick kemudian jalankan function contoh.
+  <script>
+    const button = document.getElementById('button');
+    button.onclick = contoh;
+    function contoh(){}
+  </script>
+```
 
-- addEventListener()
+Pada contoh diatas saya memilih element button dan memberikan event handler onclick kemudian jalankan function contoh.
 
-  addEventListener hampir sama penggunaanya seperti element method, yang membedakan hanya pada addEventListener bisa langsung menggunakan anonymous function. contoh:
+# addEventListener()
 
-  ```HTML
-    <button class="button" id="button">Click Me!</button>
+addEventListener hampir sama penggunaanya seperti element method, yang membedakan hanya pada addEventListener bisa langsung menggunakan anonymous function. contoh:
 
-    <script>
-      const button = document.getElementById('button');
-      button.addEventListener('click',function(){
-        alert('ok');
-      })
-    </script>
-  ```
+```HTML
+  <button class="button" id="button">Click Me!</button>
 
-  pada contoh diatas saya memberikan event click pada button dan jalankan function untuk menampilkan alert.
+  <script>
+    const button = document.getElementById('button');
+    button.addEventListener('click',function(){
+      alert('ok');
+    })
+  </script>
+```
+
+pada contoh diatas saya memberikan event click pada button dan jalankan function untuk menampilkan alert.
