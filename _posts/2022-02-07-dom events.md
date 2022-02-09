@@ -15,175 +15,50 @@ paginate: false
 
 Setelah mempelajari selection dan manipulation, pada pembahasan ini akan materi sambungan yaitu DOM Events. Event pada javascript merepresentasikan sebuah kejadian yang terjadi di dalam DOM, kejadian tersebut bisa dilakukan atau ditentukan oleh user seperti Mouse Event, Keyboard Event dan lain lain.
 
-## ELEMENT MANIPULATION
+## EVENT METHOD
 
-Element Manipulation adalah kondisi ketika kita ingin mengubah suatu style atau atribut pada sebuah element html. Berikut adalah beberapa method pada Element Manipulation
+Ada 2 cara untuk menggunakan event yaitu:
 
-<table>
-  <thead>
-    <tr>
-      <th>Method</th>
-      <th>Function</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>element.classList</td>
-      <td>Untuk memanipulasi class pada sebuah element secara spesifik</td>
-    </tr>
-  </tfoot>
-  <tbody>
-   <tr>
-      <td>element.innerHTML</td>
-      <td>Merubah isi dari sebuah tag yang sudah di seleksi</td>
-    </tr>
-    <tr>
-      <td>element.style.property</td>
-      <td>Merubah style atau css element yang sudah di seleksi</td>
-    </tr>
-    <tr>
-      <td>element.setAttribute('attribute', 'attribute value')</td>
-      <td>Untuk memanipulasi attribute pada sebuah element seperti class, id, name</td>
-    </tr>
-  </tbody>
-</table>
+- EVENT HANDLER
+  A. Inline HTML Attribute
 
-## USAGE (Element Manipulation)
+  inline HTML attribute yaitu memberikan event handler di dalam element html seperti berikut:
 
-```HTML
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <h3 id="h3">Hello World</h3>
-    </body>
-    </html>
+  ```HTML
+     <button class="button" onclick="clickme()">Click Me!</button>
+  ```
+
+  Pada contoh script diatas, saya menambahkan event handler onclick pada element button
+
+  B. Element Method
+
+  Element Method memberikan event handler pada sebuah element HTML namun event tersebut di deklarasikan didalam javascript, seperti berikut:
+
+  ```HTML
+    <button class="button" id="button">Click Me!</button>
 
     <script>
-        // Seleksi Element h3
-        const h3 = document.getElementById('h3')
-
-        // Buat Manipulasi InnerHTML
-        h3.innerHTML = 'INI ADALAH JUDUL'; // Maka outputnya adalah tag h3 akan berubah valuenya menjadi INI ADALAH JUDUL
-
-        // Buat Manipulasi style.properties
-        h3.style.backgroundColor = 'red'; // Outputnya warna background pada h3 akan berubah menjadi merah
-
-        // Buat Manipulasi Attribute
-        h3.setAttribute('id', 'judul') // method ini akan menambahkan attribute id = "judul" pada element h3
-
-        // Element Class List akan mengelola class secara spesifik
-        h3.classList.add('baru') // untuk menambah class baru pada element h3 jadi class = "h3 baru"
-
-        h3.classList.remove('baru') // untuk menghilangkan sebuah class tertentu, jadi class = "h3"
-
-        h3.classList.toggle('judul') // akan menambah class judul jika di h3 belum ada, dan akan menghapus class judul jika di h3 sudah ada
-
-        h3.classList.replace('h3', 'header') // akan mengubah class h3 menjadi class header
+      const button = document.getElementById('button');
+      button.onclick = contoh;
+      function contoh(){}
     </script>
-```
+  ```
 
-## NODE MANIPULATION
+  Pada contoh diatas saya memilih element button dan memberikan event handler onclick kemudian jalankan function contoh.
 
-Node Manipulation memungkinkan kita untuk melakukan penambahan node baru atau menghapus node.
+- addEventListener()
 
-<table>
-  <thead>
-    <tr>
-      <th>Method</th>
-      <th>Function</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>parentNode.replaceChild(newNode, oldNode)</td>
-      <td>Untuk mengganti sebuah element di dalam parent</td>
-    </tr>
-  </tfoot>
-  <tbody>
-   <tr>
-      <td>document.createElement()</td>
-      <td>Membuat element baru</td>
-    </tr>
-    <tr>
-      <td>document.createTextNode()</td>
-      <td>Membuat text untuk sebuah node atau element baru</td>
-    </tr>
-    <tr>
-      <td>node.appendChild()</td>
-      <td>Untuk menyisipkan sebuah text ataupun element baru sesudah element parent</td>
-    </tr>
-    <tr>
-      <td>node.insertBefore()</td>
-      <td>Untuk menyisipkan sebuah element baru sebelum element parent</td>
-    </tr>
-    <tr>
-      <td>parentNode.removeChild()</td>
-      <td>Untuk menghapus sebuah element di dalam parent</td>
-    </tr>
-  </tbody>
-</table>
+  addEventListener hampir sama penggunaanya seperti element method, yang membedakan hanya pada addEventListener bisa langsung menggunakan anonymous function. contoh:
 
-## USAGE (Node Manipulation)
-
-```HTML
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <section id="sectionA">
-            <h3 id="h1">Punten</h3>
-            <h3 id="h2">Hello World</h3>
-        </section>
-    </body>
-    </html>
+  ```HTML
+    <button class="button" id="button">Click Me!</button>
 
     <script>
-        // Buat Element h3 baru
-        const h3baru = document.createElement('h3') // output <h3></h3>
-
-        // Buat Value text untuk h3baru
-        const texth3b = document.createTextNode('appenChild') // output 'appenChild'
-
-        // Sisipkan texth3b ke dalam h3baru
-        h3baru.appendChild(texth3b) // output <h3>Halo Dunia</h3>
-
-        // Simpan h3baru dibawah h3 lama
-        // ambil nodenya / parentnya terlebih dahulu
-        const sectionA = document.getElementById('sectionA')
-
-        // Sisipkan h3baru di akhir h3 lama
-        sectionA.appendChild(h3baru)
-
-        // -----------------------------------------------------------------------------
-
-        // Sisipkan element baru sebelum hello world atau tengah tengah
-        // Buat element baru
-        const h3baru1 = document.createElement('h3')
-
-        // Buat value text untuk h3baru1
-        const texth3b1 = document.createTextNode('insert before')
-
-        // Sisipkan texth3b1 ke dalam h3baru1
-        h3baru1.appendChild(texth3b1)
-
-        // ambil parent dari element yang jadi bantalan
-        const section = document.getElementById('sectionA')
-
-        // ambil element yang akan dijadikan bantalan
-        const bantalan = document.getElementById('h2');
-
-        // Sisipkan elemen
-        section.insertBefore(h3baru1, bantalan);
+      const button = document.getElementById('button');
+      button.addEventListener('click',function(){
+        alert('ok');
+      })
     </script>
-```
+  ```
+
+  pada contoh diatas saya memberikan event click pada button dan jalankan function untuk menampilkan alert.
