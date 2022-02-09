@@ -15,11 +15,7 @@ paginate: false
 
 Setelah mempelajari selection dan manipulation, pada pembahasan ini akan materi sambungan yaitu DOM Events. Event pada javascript merepresentasikan sebuah kejadian yang terjadi di dalam DOM, kejadian tersebut bisa dilakukan atau ditentukan oleh user seperti Mouse Event, Keyboard Event dan lain lain.
 
-## EVENT METHOD
-
-Ada 2 cara untuk menggunakan event yaitu:
-
-# EVENT HANDLER
+Ada 3 cara untuk menggunakan event yaitu:
 
 ## Inline HTML Attribute
 
@@ -47,7 +43,7 @@ Element Method memberikan event handler pada sebuah element HTML namun event ter
 
 Pada contoh diatas saya memilih element button dan memberikan event handler onclick kemudian jalankan function contoh.
 
-# addEventListener()
+## addEventListener()
 
 addEventListener hampir sama penggunaanya seperti element method, yang membedakan hanya pada addEventListener bisa langsung menggunakan anonymous function. contoh:
 
