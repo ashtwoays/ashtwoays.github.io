@@ -34,9 +34,9 @@ Passionate about crafting dynamic and user-centric web experiences, I am a skill
         <p>Coordinate & Develop Integration, Internal System with Vendor Service (Membership, Banking, Ecommerce Enabler)</p>
         <p>Setup & Layouting Existing Web Commerce (Shopify)</p>
     <hr>
-    <li>PT. PERTAMINA INTERNATIONAL SHIPPING - General Affair & Procurement IT Intern (Sep 2020 - Feb 2021)</li>
+    <li><b>PT. PERTAMINA INTERNATIONAL SHIPPING - General Affair & Procurement IT Intern (Sep 2020 - Feb 2021)</b></li>
     <hr>
-    <li>PT. TOPJAYA ANTARIKSA ELEKTRONICS - Production Operator</li>
+    <li><b>PT. TOPJAYA ANTARIKSA ELEKTRONICS - Production Operator</b></li>
 </ul>
 
 <h3>TECHNICAL EXPERTISE 🔧</h3>
