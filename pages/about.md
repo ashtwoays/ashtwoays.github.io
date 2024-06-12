@@ -20,9 +20,9 @@ Other Tools: Bootstrap, jQuery, RESTful APIs
 
 <h3>About Me</h3>
 <ul>
-    <li>Name : Aditia Ayasy</li>
-    <li>Age  : 24</li>
-    <li>Indonesia, Jawa Barat</li>
+    <li>Name     : Aditia Ayasy</li>
+    <li>Email    : aditia.ayasy@gmail.com</li>
+    <li>LinkedIn :<a href="https://www.linkedin.com/in/aditia-ayasy/">Click this link</a><</li>
 </ul>
 
 <h3>Educational</h3>
