@@ -11,21 +11,13 @@ permalink: /about/
 
 Passionate about crafting dynamic and user-centric web experiences, I am a skilled web developer proficient in a range of programming languages and frameworks. With a strong foundation in front-end and back-end development, I specialize in building responsive, scalable, and secure web applications.
 
-🔧 Technical Expertise:
-Front-end: HTML5, CSS3, Vue Js
-Back-end: Node.js, Express.js, PHP, Laravel, CodeIgniter
-Database: MySQL
-Version Control: Git
-Other Tools: Bootstrap, jQuery, RESTful APIs
-
-<h3>About Me</h3>
+<h3>ABOUT ME</h3>
 <ul>
     <li>Name     : Aditia Ayasy</li>
     <li>Email    : aditia.ayasy@gmail.com</li>
-    <li>LinkedIn :<a href="https://www.linkedin.com/in/aditia-ayasy/">Click this link</a><</li>
 </ul>
 
-<h3>Educational</h3>
+<h3>EDUCATIONAL</h3>
 <ul>
     <li>UNIVERSITAS BINA INSANI (2017-2021)</li>
     <p>Information System</p>
@@ -35,14 +27,23 @@ Other Tools: Bootstrap, jQuery, RESTful APIs
     <p>Industrial Electronics Engineering</p>
 </ul>
 
-<h3>Work Experience</h3>
+<h3>WORK EXPERIENCE</h3>
 <ul>
-    <li>PT. MEGA PERINTIS TBK</li>
-    <p>IT Development Officer : Mar 2022 - Present</p>
+    <li><b>PT. MEGA PERINTIS TBK - IT Development Officer (Mar 2022 - Present)</b></li>
+        <p>Modify Existing Systems</p>
+        <p>Coordinate & Develop Integration, Internal System with Vendor Service (Membership, Banking, Ecommerce Enabler)</p>
+        <p>Setup & Layouting Existing Web Commerce (Shopify)</p>
     <hr>
-    <li>PT. PERTAMINA INTERNATIONAL SHIPPING (Internship)</li>
-    <p>General Affair & Procurement IT : Sep 2020 - Feb 2021</p>
+    <li>PT. PERTAMINA INTERNATIONAL SHIPPING - General Affair & Procurement IT Intern (Sep 2020 - Feb 2021)</li>
     <hr>
-    <li>PT. TOPJAYA ANTARIKSA ELEKTRONICS</li>
-    <p>Production Operator</p>
+    <li>PT. TOPJAYA ANTARIKSA ELEKTRONICS - Production Operator</li>
+</ul>
+
+<h3>TECHNICAL EXPERTISE 🔧</h3>
+<ul>
+    <li>Front-end       : HTML5, CSS3, Vue Js</li>
+    <li>Back-end        : Node.js, Express.js, PHP, Laravel, CodeIgniter</li>
+    <li>Database        : MySQL</li>
+    <li>Version Control : Git</li>
+    <li>Other Tools     : Bootstrap, jQuery, RESTful APIs</li>
 </ul>
