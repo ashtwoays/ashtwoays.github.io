@@ -7,8 +7,6 @@ permalink: /about/
 
 <img class="img-rounded" src="/assets/img/uploads/profile-rounded.png" alt="Aditia Ayasy" width="200">
 
-# About
-
 Passionate about crafting dynamic and user-centric web experiences, I am a skilled web developer proficient in a range of programming languages and frameworks. With a strong foundation in front-end and back-end development, I specialize in building responsive, scalable, and secure web applications.
 
 <h3>ABOUT ME</h3>
