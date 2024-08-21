@@ -4,7 +4,7 @@ layout: post
 title: JS Basic - Perulangan (looping)
 subtitle: JS Basic - Perulangan (looping)
 description:
-image: https://unsplash.com/photos/graphical-user-interface-qaedPly-Uro
+image: /assets/img/post/while-3.png
 optimized_image: https://unsplash.com/photos/graphical-user-interface-qaedPly-Uro
 category: javascript
 tags:
