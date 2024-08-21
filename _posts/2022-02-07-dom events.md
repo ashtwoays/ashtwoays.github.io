@@ -4,8 +4,8 @@ layout: post
 title: "DOM - Events"
 subtitle: Pembahasan DOM Events
 description:
-image: https://source.unsplash.com/1600x900/?javascript
-optimized_image: https://source.unsplash.com/1600x900/?javascript
+image: /assets/img/javascript.jpg
+optimized_image: /assets/img/javascript.jpg
 category: javascript
 tags:
   - javascript
