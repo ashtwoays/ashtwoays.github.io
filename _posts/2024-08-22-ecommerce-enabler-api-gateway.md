@@ -31,12 +31,15 @@ Tujuan project ini adalah:
 
 Solusi yang perlu dibuat:
 - Membuat stagging sementara untuk menampung data dari ERP dan Jubelio.
-- Membuat scheduler untuk mengirimkan data terjadwal dari stagging ke Jubelio.
+- Membuat job scheduler untuk memindahkan data dari ERP ke stagging.
+- Membuat scheduler request untuk mengirimkan data terjadwal dari stagging ke Jubelio.
 - Membuat webhook receiver, untuk menerima data penjualan yang dikirimkan oleh Jubelio, karena jubelio mengirimkan data penjualan melalui Webhook.
 
 berikut adalah skema project ini.
 
-<img src="/assets/img/post/project_api_membership.png" alt="API Gateway" width="700">
+<img src="/assets/img/post/project_api_ecommerce.png" alt="API Gateway" width="700">
+
+<img src="/assets/img/post/project_api_ecommerce_2.png" alt="API Gateway" width="700">
 
 
 ## TECHNICAL REQUIREMENTS
@@ -50,19 +53,23 @@ berikut adalah skema project ini.
   </thead>
   <tbody>
     <tr>
+      <td>X++</td>
+      <td>Bahasa utama yang digunakan untuk membuat job scheduler pengiriman data dari ERP ke Stagging</td>
+    </tr>
+    <tr>
       <td>PHP</td>
       <td>Bahasa utama yang digunakan untuk membangun API Gateway pada project ini</td>
     </tr>
     <tr>
-      <td>Codeigniter</td>
-      <td>Framework yang digunakan pada project ini</td>
+      <td>Laravel</td>
+      <td>Framework yang digunakan untuk membuat stagging</td>
     </tr>
     <tr>
       <td>Mysql</td>
       <td>Database yang digunakan untuk menyimpan hasil log request dan response</td>
     </tr>
     <tr>
-      <td>cURL</td>
+      <td>Guzzle</td>
       <td>Library yang digunkan untuk melakukan request API</td>
     </tr>
   </tbody>
@@ -71,6 +78,12 @@ berikut adalah skema project ini.
 
 ## RESULT
 
-Result dari project ini adalah endpoint yang siap di hit oleh POS, endpoint ini akan mengembalikan data dari layanan membership jika data yang dikirimkan sesuai.
+Result dari project ini adalah stagging, yang siap mengirimkan data produk ke jubelio melalui API, dan menerima data sales melalui webhook yang dikirimkan oleh jubelio.
 
-<img src="/assets/img/post/project_api_membership_result.png" alt="API Gateway" width="700">
+
+
+<img src="/assets/img/post/project_result_ecommerce_1.png" alt="API Gateway" width="700">
+
+<img src="/assets/img/post/project_result_ecommerce_2.png" alt="API Gateway" width="700">
+
+<img src="/assets/img/post/project_result_ecommerce_3.png" alt="API Gateway" width="700">
