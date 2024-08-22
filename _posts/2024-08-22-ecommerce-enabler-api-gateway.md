@@ -65,6 +65,10 @@ berikut adalah skema project ini.
       <td>Framework yang digunakan untuk membuat stagging</td>
     </tr>
     <tr>
+      <td>CrudBooster</td>
+      <td>Library untuk generate crud function otomatis</td>
+    </tr>
+    <tr>
       <td>Mysql</td>
       <td>Database yang digunakan untuk menyimpan hasil log request dan response</td>
     </tr>
