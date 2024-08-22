@@ -21,7 +21,14 @@ Project ini merupakan project API Pertama yang saya buat, project ini berupa API
 
 ## PROJECT CONCEPT
 
-Sementara project yang akan saya buat adalah integrasi antara sistem POS dengan layanan membership vendor(TADA), berikut adalah skema project ini.
+Sementara project yang akan saya buat adalah integrasi antara sistem POS dengan layanan membership vendor(TADA), kenapa perlu menggunakan API Gateway? Seharusnya POS bisa langsung Hit ke endpoint layanan membership?.
+
+Ini dikarenakan sebelumnya sudah ada program membership existing yang sudah terintegrasi dengan POS, otomatis POS sudah menyesuaikan response yang dikembalikan oleh endpoint program membership existing. dikarenakaan ini adalah proses pergantian program membership dari membership existing -> Layanan membership external, otomatis response yang dikirimkan oleh Layanan membership external akan berbeda dengan response yang dikirimkan oleh membership existing.
+Maka dari itu fungsi API Gateway ini adalah sebagai jembatan agar response dari Layanan membership external sama seperti response dari program membership existing.
+
+Tujuannya agar tidak banyak perubahan code dari sisi POS dan meminimalisir terjadinya bug. karena POS merupakan sistem first layer yang digunakan untuk melakukan transaksi penjualan.
+
+berikut adalah skema project ini.
 
 <img src="/assets/img/post/project_api_membership.png" alt="API Gateway" width="700">
 
@@ -35,13 +42,11 @@ Sementara project yang akan saya buat adalah integrasi antara sistem POS dengan 
       <th>For</th>
     </tr>
   </thead>
-  <tfoot>
+  <tbody>
     <tr>
       <td>PHP</td>
       <td>Bahasa utama yang digunakan untuk membangun API Gateway pada project ini</td>
     </tr>
-  </tfoot>
-  <tbody>
     <tr>
       <td>Codeigniter</td>
       <td>Framework yang digunakan pada project ini</td>
@@ -56,5 +61,13 @@ Sementara project yang akan saya buat adalah integrasi antara sistem POS dengan 
     </tr>
   </tbody>
 </table>
+
+
+## RESULT
+
+Result dari project ini adalah endpoint yang siap di hit oleh POS, endpoint ini akan mengembalikan data dari layanan membership jika data yang dikirimkan sesuai.
+
+<img src="/assets/img/post/project_api_membership_result.png" alt="API Gateway" width="700">
+
 
 
