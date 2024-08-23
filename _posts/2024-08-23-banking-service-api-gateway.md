@@ -36,7 +36,7 @@ Solusi yang perlu dibuat:
 
 berikut adalah skema project ini.
 
-<img src="/assets/img/post/project_api_banking.png" alt="API Gateway" width="700">
+<img src="/assets/img/post/project_api_banking_2.png" alt="API Gateway" width="700">
 
 
 
@@ -87,3 +87,12 @@ berikut adalah skema project ini.
 
 
 ## RESULT
+Result dari project ini adalah 
+- Endpoint yang siap di hit oleh Dynamics 365 (ERP)
+- Dashboard Monitoring Log
+beberapa bagian gambar disensor, karena mengandung data confidential.
+
+<img src="/assets/img/post/project_result_ebanking_1.png" alt="API Gateway" width="700">
+<img src="/assets/img/post/project_result_ebanking_2.png" alt="API Gateway" width="700">
+<img src="/assets/img/post/project_result_ebanking_3.png" alt="API Gateway" width="700">
+<img src="/assets/img/post/project_result_ebanking_4.png" alt="API Gateway" width="700">
