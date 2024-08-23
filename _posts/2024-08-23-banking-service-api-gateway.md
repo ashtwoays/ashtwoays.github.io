@@ -36,7 +36,7 @@ Solusi yang perlu dibuat:
 
 berikut adalah skema project ini.
 
-<img src="/assets/img/post/project_api_banking_2.png" alt="API Gateway" width="700">
+<img src="/assets/img/post/project_api_banking_3.png" alt="API Gateway" width="700">
 
 
 
