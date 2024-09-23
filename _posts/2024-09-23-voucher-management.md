@@ -74,4 +74,12 @@ berikut adalah skema project ini.
     </tr>
   </tbody>
 </table>
-</table>
+
+
+
+## RESULT
+Result dari project ini adalah 
+- Website yang dapat di akses oleh user untuk kebutuhan upload dan monitoring voucher.
+
+<img src="/assets/img/post/management-voucher-1.png" alt="Voucher Management 1" width="700">
+<img src="/assets/img/post/management-voucher-2.png" alt="Voucher Management 2" width="700">
