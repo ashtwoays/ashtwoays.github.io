@@ -17,18 +17,27 @@ Passionate about crafting dynamic and user-centric web experiences, I am a skill
 
 <h3>WORK EXPERIENCE</h3>
 <ul>
-    <li><b>PT. MEGA PERINTIS TBK - IT Development Officer (Mar 2022 - Present)</b></li>
-        <p>Responsible for modifying and fixing bugs in live applications.<p>
-        <p>Responsible for coordinating technical aspects with vendors related to integration.<p>
-        <p>Develop an API Gateway for integration (Membership, Ecommerce Enabler, Banking Service).<p>
-        <p>Created a Dashboard for monitoring API Gateway traffic.<p>
-        <p>Develop a System Scheduler (for sending reports via WhatsApp and transmitting sales data to vendors).<p>
-        <p>Set up and designed the layout for a web commerce platform (Shopify)<p>
-    <hr>
-    <li><b>PT. PERTAMINA INTERNATIONAL SHIPPING - General Affair & Procurement IT Intern (Sep 2020 - Feb 2021)</b></li>
-    <hr>
-    <li><b>PT. TOPJAYA ANTARIKSA ELEKTRONICS - Production Operator</b></li>
+  <li>
+    <b>PT. MEGA PERINTIS TBK - IT Development Officer (Mar 2022 - Present)</b>
+    <ul>
+      <li>Responsible for modifying and fixing bugs in live applications.</li>
+      <li>Responsible for coordinating technical aspects with vendors related to integration.</li>
+      <li>Developed an API Gateway for integration (Membership, Ecommerce Enabler, Banking Service).</li>
+      <li>Created a Dashboard for monitoring API Gateway traffic.</li>
+      <li>Developed a System Scheduler (for sending reports via WhatsApp and transmitting sales data to vendors).</li>
+      <li>Set up and designed the layout for a web commerce platform (Shopify).</li>
+    </ul>
+  </li>
+  <hr>
+  <li>
+    <b>PT. PERTAMINA INTERNATIONAL SHIPPING - General Affair & Procurement IT Intern (Sep 2020 - Feb 2021)</b>
+  </li>
+  <hr>
+  <li>
+    <b>PT. TOPJAYA ANTARIKSA ELEKTRONICS - Production Operator</b>
+  </li>
 </ul>
+
 
 <h3>EDUCATIONAL</h3>
 <ul>
