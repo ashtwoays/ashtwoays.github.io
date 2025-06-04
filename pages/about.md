@@ -41,3 +41,22 @@ Passionate about crafting dynamic and user-centric web experiences, I am a skill
   </li>
 </ul>
 
+
+<h3>EDUCATIONAL</h3>
+<ul>
+    <li>UNIVERSITAS BINA INSANI (2017-2021)</li>
+    <p>Information System</p>
+    <p>Grade 3,6</p>
+    <hr>
+    <li>SMK NEGERI 5 KOTA BEKASI (2014-2017)</li>
+    <p>Industrial Electronics Engineering</p>
+</ul>
+
+<h3>TECHNICAL EXPERTISE 🔧</h3>
+<ul>
+    <li>Front-end       : HTML5, CSS3, Vue Js</li>
+    <li>Back-end        : Node.js, Express.js, PHP, Laravel, CodeIgniter</li>
+    <li>Database        : MySQL</li>
+    <li>Version Control : Git</li>
+    <li>Other Tools     : Bootstrap, jQuery, RESTful APIs</li>
+</ul>
