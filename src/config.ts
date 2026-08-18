@@ -10,7 +10,7 @@ export const SITE = {
     favicon: "/favicon.png",
     repository: "https://github.com/vito8916/simple-portfolio.git",
     author: "Aditia Ayasy",
-    profile: "https://ashtwoays.github.io",
+    profile: "https://victoralvarado.dev/",
 }
 
 export const ME = {
