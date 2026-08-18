@@ -5,7 +5,7 @@ interface SoftSkill {
 
 const softSkills: SoftSkill[] = [
     {
-        name: "Solving Problems",
+        name: "Problems Solving",
         icon: "tools-fill"
     },
     {
