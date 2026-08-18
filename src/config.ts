@@ -10,13 +10,13 @@ export const SITE = {
     favicon: "/favicon.png",
     repository: "https://github.com/vito8916/simple-portfolio.git",
     author: "Aditia Ayasy",
-    profile: "https://victoralvarado.dev/",
+    profile: "https://ashtwoays.github.io",
 }
 
 export const ME = {
     name: "ADITIA AYASY",
     profession: "Software Engineer | Backend Developer",
-    profileImage: "pp2.png",
+    profileImage: "avatar.png",
     profileFacts: [
         {
             value: 4,
